@@ -13,6 +13,18 @@
         android:theme="@style/Theme.MySchedule"
         tools:targetApi="31">
         <activity
+            android:name=".Login.QuenMatKhau"
+            android:exported="false" />
+        <activity
+            android:name=".Login.DangKy"
+            android:exported="false" />
+        <activity
+            android:name=".Login.TrangChu"
+            android:exported="false" />
+        <activity
+            android:name=".Login.DangNhap"
+            android:exported="false" />
+        <activity
             android:name=".Heslo"
             android:exported="false" />
         <activity
