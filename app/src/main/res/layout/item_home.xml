@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:background="@drawable/khung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtthu"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Th 3" />
+
+            <TextView
+                android:id="@+id/txtngay"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:background="@drawable/khung2"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="60dp">
+            <TextView
+                android:id="@+id/txtloichuc"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/white"
+                android:paddingBottom="5dp"
+                android:layout_marginTop="5dp"
+               android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đến một ngày tất cả sự chiệu đựng của bạn s..." />
+            <TextView
+                android:id="@+id/txtloinhac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="2 lời nhắc"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
