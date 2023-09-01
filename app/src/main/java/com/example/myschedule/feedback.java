@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import android.graphics.drawable.Icon;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.navigation.NavigationBarView;
 
 public class feedback extends AppCompatActivity {
@@ -21,6 +23,7 @@ public class feedback extends AppCompatActivity {
         setContentView(R.layout.activity_feedback);
 //
         bottomnav = findViewById(R.id.bottomnav);
+
 
         bottomnav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
