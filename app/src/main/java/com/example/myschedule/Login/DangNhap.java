@@ -64,6 +64,12 @@ public class DangNhap extends AppCompatActivity {
                 }
             }
         });
+        btnDangnhapwithgoogle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(DangNhap.this, "Đang cập nhật hệ thống, vui lòng thử lại sau!", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         txtForgotpass.setOnClickListener(new View.OnClickListener() {
             @Override
