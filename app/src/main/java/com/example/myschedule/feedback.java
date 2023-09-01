@@ -11,6 +11,9 @@ import androidx.fragment.app.FragmentManager;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.myschedule.fragment.Fragmenthome;
+import com.example.myschedule.fragment.fragmentmotivation;
+import com.example.myschedule.fragment.frggroup3;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
@@ -43,11 +46,14 @@ public class feedback extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 if (item.getItemId() == R.id.home) {
-
+                    Fragmenthome frghome = new Fragmenthome();
+                    repalceFrg(frghome);
                 } else if (item.getItemId() == R.id.chat) {
-
+                    fragmentmotivation frghome = new fragmentmotivation();
+                    repalceFrg(frghome);
                 } else if (item.getItemId() == R.id.group) {
-
+                    frggroup3 frghome = new frggroup3();
+                    repalceFrg(frghome);
                 } else if (item.getItemId() == R.id.person) {
 
                 }
