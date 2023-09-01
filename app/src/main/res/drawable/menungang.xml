@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/lichbieu"
+        android:title="Lịch biểu"
+        android:icon="@drawable/iclichbieu"/>
+    <item android:id="@+id/ngay"
+        android:title="Ngày"
+        android:icon="@drawable/iclichthang"/>
+    <item android:id="@+id/tuan"
+        android:title="Tuần"
+        android:icon="@drawable/iclichngay"/>
+    <item android:id="@+id/thang"
+        android:title="Tháng"
+        android:icon="@drawable/iclichthang"/>
+    <item android:id="@+id/caidat"
+        android:title="Cài đặt"
+        android:icon="@drawable/iccaidat"/>
+</menu>
