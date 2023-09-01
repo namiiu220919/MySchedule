@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/nen"
+    >
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="YOUR SCHEDULE"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="150dp"
+        android:textSize="28sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#0000FF"
+        />
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        >
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="270dp"
+            android:src="@drawable/bg_in"
+            android:scaleType="fitXY"
+            />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome to app"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="30dp"
+        android:textSize="32sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#1A1A1B"
+        />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
