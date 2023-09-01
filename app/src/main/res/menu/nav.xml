@@ -7,14 +7,14 @@
     <item
         android:id="@+id/group"
         android:icon="@drawable/ic2"
-        android:title="Map" />
+        android:title="Group" />
     <item
         android:id="@+id/chat"
         android:icon="@drawable/ic3"
-        android:title="Colection" />
+        android:title="Motivation" />
     <item
         android:id="@+id/person"
         android:icon="@drawable/ic4"
-        android:title="Colection" />
+        android:title="Person" />
 
 </menu>
