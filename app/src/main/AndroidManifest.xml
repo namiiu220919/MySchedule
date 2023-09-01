@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MySchedule"
         tools:targetApi="31">
         <activity
+            android:name=".feedback2"
+            android:exported="false" />
+        <activity
+            android:name=".feedback1"
+            android:exported="false" />
+        <activity
             android:name=".Login.QuenMatKhau"
             android:exported="false" />
         <activity
@@ -26,11 +32,12 @@
             android:name=".Login.DangNhap"
             android:exported="false" />
         <activity
-            android:name=".Heslo"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="false" />
+        <activity
+            android:name=".Heslo"
+            android:exported="false" />
+
         <activity
             android:name=".feedback"
             android:exported="true">

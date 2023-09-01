@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".feedback1">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="Chào mừng bạn đến với"
+        android:textColor="#F44336"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="YOUR SCHEDULE"
+        android:layout_marginBottom="30dp"
+        android:textColor="#F44336"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng nhập 1 vài thông tin để chúng tôi hỗ trợ"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bạn được tốt hơn"
+        android:textSize="18sp"
+        android:layout_gravity="start"
+        android:layout_marginLeft="18dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="18dp"
+        android:text="Tuổi: 18"
+        android:textColor="@color/black"
+        
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="18dp"
+        android:text="Giới tính: Nam"
+        android:textColor="@color/black"
+        
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="18dp"
+        android:text="Bạn có muốn thường xuyên nhận thông báo từ app ?"
+        android:textColor="@color/black"
+        
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="18dp"
+        android:text="Bạn biết đến ứng dụng của chúng tôi qua đâu ?"
+        android:textColor="@color/black"
+        
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="18dp"
+        android:text="Bạn mong muốn gì khi sử dụng timemarter:"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/bobutton"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gửi"
+        android:layout_gravity="end"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/button"/>
+
+
+
+</LinearLayout>
