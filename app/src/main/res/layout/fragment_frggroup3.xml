@@ -145,7 +145,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:background="@drawable/khungavata"
-                    android:src="@drawable/anh1" />
+                    android:src="@drawable/anh2" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -157,7 +157,126 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Nguyễn Phương Nam"
+                        android:text="Phạm Thanh Phong"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 ngày"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Nội dung bài viết-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Sự thât là như vậy" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="375dp"
+                    android:src="@drawable/post1" />
+            </LinearLayout>
+
+            <!--Thanh trạng thái-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/like1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="1 tỉ" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="1 bình luận" />
+                </LinearLayout>
+            </LinearLayout>
+            <!--            Nút-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="35dp"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/like"
+                    android:drawablePadding="0dp"
+                    android:text="Thích" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/comment"
+                    android:drawablePadding="0dp"
+                    android:text="Bình luận" />
+            </LinearLayout>
+
+            <!--Thông tin người dùng-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/khungavata"
+                    android:src="@drawable/anh3" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Nguyễn Trung Thực"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -264,7 +383,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:background="@drawable/khungavata"
-                    android:src="@drawable/anh1" />
+                    android:src="@drawable/anh4" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -276,7 +395,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="Nguyễn Phương Nam"
+                        android:text="Đào Văn Mạnh"
                         android:textSize="15dp"
                         android:textStyle="bold" />
 
@@ -371,6 +490,127 @@
                     android:drawablePadding="0dp"
                     android:text="Bình luận" />
             </LinearLayout>
+
+            <!--Thông tin người dùng-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/khungavata"
+                    android:src="@drawable/anh5" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Đặng Chí Luật"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 ngày"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Nội dung bài viết-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="Sự thât là như vậy" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="375dp"
+                    android:src="@drawable/post1" />
+            </LinearLayout>
+
+            <!--Thanh trạng thái-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_margin="5dp"
+                        android:src="@drawable/like1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="1 tỉ" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="1 bình luận" />
+                </LinearLayout>
+            </LinearLayout>
+            <!--            Nút-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="35dp"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/like"
+                    android:drawablePadding="0dp"
+                    android:text="Thích" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:background="@color/white"
+                    android:drawableLeft="@drawable/comment"
+                    android:drawablePadding="0dp"
+                    android:text="Bình luận" />
+            </LinearLayout>
+
+
         </LinearLayout>
 
 
