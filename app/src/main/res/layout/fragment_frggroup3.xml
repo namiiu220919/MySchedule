@@ -179,12 +179,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="5dp"
-                    android:text="Sự thât là như vậy" />
+                    android:text="Anh em nên nhớ" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="375dp"
-                    android:src="@drawable/post1" />
+                    android:src="@drawable/post2" />
             </LinearLayout>
 
             <!--Thanh trạng thái-->
@@ -209,7 +209,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="1 tỉ" />
+                        android:text="110" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -224,7 +224,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="1 bình luận" />
+                        android:text="3 bình luận" />
                 </LinearLayout>
             </LinearLayout>
             <!--            Nút-->
@@ -298,12 +298,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="5dp"
-                    android:text="Sự thât là như vậy" />
+                    android:text="Đúng đúng" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="375dp"
-                    android:src="@drawable/post1" />
+                    android:src="@drawable/post3" />
             </LinearLayout>
 
             <!--Thanh trạng thái-->
@@ -328,7 +328,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="1 tỉ" />
+                        android:text="234" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -343,7 +343,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="1 bình luận" />
+                        android:text="5 bình luận" />
                 </LinearLayout>
             </LinearLayout>
             <!--            Nút-->
@@ -402,7 +402,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1 ngày"
+                        android:text="4 ngày"
                         android:textSize="12dp" />
                 </LinearLayout>
             </LinearLayout>
@@ -417,12 +417,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="5dp"
-                    android:text="Sự thât là như vậy" />
+                    android:text="" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="375dp"
-                    android:src="@drawable/post1" />
+                    android:src="@drawable/post4" />
             </LinearLayout>
 
             <!--Thanh trạng thái-->
@@ -447,7 +447,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="1 tỉ" />
+                        android:text="10" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -521,7 +521,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2 ngày"
+                        android:text="6 ngày"
                         android:textSize="12dp" />
                 </LinearLayout>
             </LinearLayout>
@@ -536,12 +536,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="5dp"
-                    android:text="Sự thât là như vậy" />
+                    android:text="Nhẫn nại" />
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="375dp"
-                    android:src="@drawable/post1" />
+                    android:src="@drawable/post5" />
             </LinearLayout>
 
             <!--Thanh trạng thái-->
@@ -566,7 +566,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dp"
-                        android:text="1 tỉ" />
+                        android:text="1K " />
                 </LinearLayout>
 
                 <LinearLayout
@@ -581,7 +581,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="1 bình luận" />
+                        android:text="121 bình luận" />
                 </LinearLayout>
             </LinearLayout>
             <!--            Nút-->
