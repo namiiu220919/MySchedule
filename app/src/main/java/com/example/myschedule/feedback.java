@@ -1,19 +1,24 @@
 package com.example.myschedule;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import android.graphics.drawable.Icon;
 import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.button.MaterialButton;
 import com.google.android.material.navigation.NavigationBarView;
+import com.google.android.material.navigation.NavigationView;
 
 public class feedback extends AppCompatActivity {
+    DrawerLayout drawerLayout;
+    Toolbar toolbar;
+    NavigationView nav;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,23 +26,29 @@ public class feedback extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
-//
-        bottomnav = findViewById(R.id.bottomnav);
 
+        bottomnav = findViewById(R.id.bottomnav);
+        toolbar = findViewById(R.id.toolbar);
+        nav = findViewById(R.id.nav);
+        drawerLayout = findViewById(R.id.drawerlayout); // Khởi tạo đối tượng drawerLayout
+
+        setSupportActionBar(toolbar);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open, R.string.close);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
+        nav.setItemIconTintList(null);
+        setTitle("Lịch");
 
         bottomnav.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                if(item.getItemId()== R.id.home){
+                if (item.getItemId() == R.id.home) {
 
-                }
-                else if(item.getItemId()==R.id.chat){
+                } else if (item.getItemId() == R.id.chat) {
 
-                }
-                else if(item.getItemId()==R.id.group){
+                } else if (item.getItemId() == R.id.group) {
 
-                }
-                else if(item.getItemId()==R.id.person){
+                } else if (item.getItemId() == R.id.person) {
 
                 }
                 return true;
@@ -45,9 +56,10 @@ public class feedback extends AppCompatActivity {
         });
 
     }
-    public void repalceFrg(Fragment frg){
+
+    public void repalceFrg(Fragment frg) {
         FragmentManager fm = getSupportFragmentManager();
-        fm.beginTransaction().replace(R.id.frmnav,frg).commit();
+        fm.beginTransaction().replace(R.id.frmnav, frg).commit();
     }
 
 }
