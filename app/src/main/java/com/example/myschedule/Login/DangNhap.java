@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.example.myschedule.R;
 import com.example.myschedule.feedback;
+import com.example.myschedule.feedback1;
 
 public class DangNhap extends AppCompatActivity {
     Button btnDangnhap, btnDangky, btnDangnhapwithgoogle;
@@ -58,7 +59,7 @@ public class DangNhap extends AppCompatActivity {
                     if (nddao.checklogin(user, pass)) {
                         Toast.makeText(DangNhap.this, "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
                         clear();
-                        startActivity(new Intent(DangNhap.this, feedback.class));
+                        startActivity(new Intent(DangNhap.this, feedback1.class));
                     } else {
                         Toast.makeText(DangNhap.this, "Sai username hoặc password!", Toast.LENGTH_SHORT).show();
                     }

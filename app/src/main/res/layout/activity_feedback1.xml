@@ -4,106 +4,143 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".feedback1">
-    
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
         android:text="Chào mừng bạn đến với"
-        android:textColor="#F44336"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:gravity="center"
+        android:textColor="#F44336"
         android:textSize="25sp"
-        android:text="YOUR SCHEDULE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:layout_marginBottom="30dp"
-        android:textColor="#F44336"/>
+        android:text="YOUR SCHEDULE"
+        android:textColor="#F44336"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Vui lòng nhập 1 vài thông tin để chúng tôi hỗ trợ"
-        android:textSize="18sp"
-        android:textColor="@color/black"/>
+        android:layout_marginLeft="10sp"
+        android:text="Vui lòng nhập 1 vài thông tin để chúng tôi hỗ trợ bạn được tốt hơn"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bạn được tốt hơn"
-        android:textSize="18sp"
         android:layout_gravity="start"
-        android:layout_marginLeft="18dp"
-        android:textColor="@color/black"/>
-    <TextView
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:layout_marginLeft="18dp"
         android:text="Tuổi: 18"
         android:textColor="@color/black"
-        
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="100sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="10dp"
+        android:background="#D8CACA"
+        android:gravity="start|right" />
+
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
-        android:layout_marginLeft="18dp"
-        android:text="Giới tính: Nam"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Giới tính :"
         android:textColor="@color/black"
-        
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="nam" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="nữ" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:text="khác" />
+        </RadioGroup>
+    </LinearLayout>
+
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
         android:text="Bạn có muốn thường xuyên nhận thông báo từ app ?"
         android:textColor="@color/black"
-        
-        android:textSize="16sp"/>
+
+        android:textSize="16sp" />
+
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
         android:text="Bạn biết đến ứng dụng của chúng tôi qua đâu ?"
         android:textColor="@color/black"
-        
-        android:textSize="16sp"/>
+
+        android:textSize="16sp" />
+
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginLeft="18dp"
+        android:layout_marginTop="10dp"
         android:text="Bạn mong muốn gì khi sử dụng timemarter:"
         android:textColor="@color/black"
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
+
     <EditText
-        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/bobutton"
         android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bobutton" />
+
     <Button
-        android:layout_marginTop="20dp"
+        android:id="@+id/btnSen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Gửi"
         android:layout_gravity="end"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="12dp"
-        android:background="@drawable/button"/>
-
+        android:background="@drawable/button"
+        android:text="Gửi" />
 
 
 </LinearLayout>
