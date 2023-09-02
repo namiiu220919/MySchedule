@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.frgPersent"
+    android:background="#ECECEC">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:backgroundTint="#ECECEC"
+            android:drawableLeft="@drawable/setting"
+            android:drawablePadding="10dp"
+            android:text="Cài đặt lịch"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:backgroundTint="#ECECEC"
+            android:drawableLeft="@drawable/calendar"
+            android:drawablePadding="10dp"
+            android:text="Lịch"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:backgroundTint="#ECECEC"
+                    android:drawableTop="@drawable/calendar_view_day"
+                    android:drawablePadding="10dp"
+                    android:layout_margin="5dp"
+                    android:text="Ngày"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:backgroundTint="#ECECEC"
+                    android:drawableTop="@drawable/calendar_view_week"
+                    android:drawablePadding="10dp"
+                    android:layout_margin="5dp"
+                    android:text="Tuần"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:backgroundTint="#ECECEC"
+                    android:drawableTop="@drawable/calendar_view_month"
+                    android:drawablePadding="10dp"
+                    android:layout_margin="5dp"
+                    android:text="Tháng"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <!--Thông báo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông báo trong ngày"/>
+        </LinearLayout>
+        <!--Thống kê -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thống kê"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tuần"
+                android:layout_margin="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tháng"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

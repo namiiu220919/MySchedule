@@ -105,7 +105,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="1 bình luận" />
+                        android:text="10K bình luận" />
                 </LinearLayout>
             </LinearLayout>
             <!--            Nút-->
@@ -581,7 +581,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="5dp"
-                        android:text="121 bình luận" />
+                        android:text="122 bình luận" />
                 </LinearLayout>
             </LinearLayout>
             <!--            Nút-->
