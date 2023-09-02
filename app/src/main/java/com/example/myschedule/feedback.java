@@ -13,7 +13,10 @@ import android.view.MenuItem;
 
 import com.example.myschedule.fragment.Fragmenthome;
 import com.example.myschedule.fragment.fragmentmotivation;
+import com.example.myschedule.fragment.frgLichThang;
+import com.example.myschedule.fragment.frgPersent;
 import com.example.myschedule.fragment.frggroup3;
+import com.example.myschedule.fragment.frmLichTuan;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.android.material.navigation.NavigationView;
@@ -55,15 +58,34 @@ public class feedback extends AppCompatActivity {
                     frggroup3 frghome = new frggroup3();
                     repalceFrg(frghome);
                 } else if (item.getItemId() == R.id.person) {
-
+                    frgPersent persent = new frgPersent();
+                    repalceFrg(persent);
                 }
                 return true;
+            }
+        });
+        nav.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                if (item.getItemId()==R.id.tuan){
+                    frmLichTuan lichTuan = new frmLichTuan();
+                    repalceFrg1(lichTuan);
+                }
+                if (item.getItemId()== R.id.thang){
+                    frgLichThang lichThang = new frgLichThang();
+                    repalceFrg1(lichThang);
+                }
+                return false;
             }
         });
 
     }
 
     public void repalceFrg(Fragment frg) {
+        FragmentManager fm = getSupportFragmentManager();
+        fm.beginTransaction().replace(R.id.frmnav, frg).commit();
+    }
+    public void repalceFrg1(Fragment frg) {
         FragmentManager fm = getSupportFragmentManager();
         fm.beginTransaction().replace(R.id.frmnav, frg).commit();
     }
