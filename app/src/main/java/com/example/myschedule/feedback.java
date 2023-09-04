@@ -15,6 +15,7 @@ import com.example.myschedule.fragment.Fragmenthome;
 import com.example.myschedule.fragment.fragmentmotivation;
 import com.example.myschedule.fragment.frgLichThang;
 import com.example.myschedule.fragment.frgPersent;
+import com.example.myschedule.fragment.frgSetting;
 import com.example.myschedule.fragment.frggroup3;
 import com.example.myschedule.fragment.frmLichNgay;
 import com.example.myschedule.fragment.frmLichTuan;
@@ -79,6 +80,10 @@ public class feedback extends AppCompatActivity {
                 if (item.getItemId()== R.id.thang){
                     frgLichThang lichThang = new frgLichThang();
                     repalceFrg1(lichThang);
+                }
+                if (item.getItemId()== R.id.caidat){
+                    frgSetting setting = new frgSetting();
+                    repalceFrg1(setting);
                 }
                 return false;
             }
