@@ -49,4 +49,9 @@ public class lichDao {
         long row = db.insert("lich",null,values);
         return (row>0);
     }
+    public boolean delete(int id){
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        long row = db.delete("lich","id=?",new String[]{String.valueOf(id)});
+        return (row>0);
+    }
 }
