@@ -130,6 +130,10 @@ public class lichAdapter extends RecyclerView.Adapter<lichAdapter.viewHolder> {
         edtUDNgayThang = view.findViewById(R.id.edtUDNgayThang);
         edtUDNDLich = view.findViewById(R.id.edtUDNDLich);
         btnUD = view.findViewById(R.id.btnUDL);
+        // gan du lieu
+        edtUDNgayThangNam.setText(lich.getNgayThangNam());
+        edtUDNgayThang.setText(lich.getNgayThang());
+        edtUDNDLich.setText(lich.getLichNgay());
         btnUD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
