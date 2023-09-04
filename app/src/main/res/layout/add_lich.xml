@@ -13,11 +13,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10sp"
-                android:text="việc làm của tôi"
-                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:text="Việc làm của tôi"
+                android:textSize="26sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="5sp"
                 />
@@ -25,8 +26,9 @@
                 android:id="@+id/edtNgayThangNam"
                 android:layout_width="match_parent"
                 android:layout_height="40sp"
-                android:background="@drawable/khunglich"
-                android:hint="nhập vào thứ ngày tháng"
+                android:background="@drawable/bgpost"
+                android:hint="Nhập vào thứ ngày tháng"
+                android:paddingLeft="5dp"
                 android:focusable="false"
                 android:cursorVisible="false"
                 android:layout_margin="5sp"
@@ -37,16 +39,18 @@
                 android:layout_height="40sp"
                 android:focusable="false"
                 android:cursorVisible="false"
-                android:hint="nhập vào ngày tháng"
-                android:background="@drawable/khunglich"
+                android:paddingLeft="5dp"
+                android:hint="Nhập vào ngày tháng"
+                android:background="@drawable/bgpost"
                 android:layout_margin="5sp"
                 />
             <EditText
                 android:id="@+id/edtNDLich"
                 android:layout_width="match_parent"
                 android:layout_height="40sp"
-                android:hint="nhập vào nội dung lịch"
-                android:background="@drawable/khunglich"
+                android:paddingLeft="5dp"
+                android:hint="Nhập vào nội dung lịch"
+                android:background="@drawable/bgpost"
                 android:layout_margin="5sp"
                 />
             <LinearLayout
@@ -69,6 +73,7 @@
                 android:id="@+id/btnAddLich"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="add"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
