@@ -151,7 +151,6 @@ public class lichAdapter extends RecyclerView.Adapter<lichAdapter.viewHolder> {
                 }
             }
         });
-
     }
     protected void themlich() {
         Calendar calendar = Calendar.getInstance();

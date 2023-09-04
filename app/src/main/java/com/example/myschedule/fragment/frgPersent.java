@@ -1,12 +1,17 @@
 package com.example.myschedule.fragment;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -17,6 +22,7 @@ public class frgPersent extends Fragment {
     CheckBox chk1,chk2,chk3,chk4;
     ProgressBar progressBar;
     TextView txtKQ;
+    Button btnTKTuan;
     public frgPersent() {
         // Required empty public constructor
     }
@@ -32,6 +38,19 @@ public class frgPersent extends Fragment {
         chk4 = view.findViewById(R.id.chk4);
         txtKQ = view.findViewById(R.id.txtKQ);
         progressBar = view.findViewById(R.id.progressBar);
+        btnTKTuan = view.findViewById(R.id.btnTKTuan);
+//        btnTKTuan.setOnClickListener(new View.OnClickListener() {
+//            @SuppressLint("ResourceType")
+//            @Override
+//            public void onClick(View v) {
+//                Fragment fragment = new frm_thong_ke_tuan();
+//                FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
+//                FragmentTransaction transaction = fragmentManager.beginTransaction();
+//                transaction.replace(R.layout.fragment_frm_thong_ke_tuan,fragment);
+//                transaction.addToBackStack(null);
+//                transaction.commit();
+//            }
+//        });
         chk1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
