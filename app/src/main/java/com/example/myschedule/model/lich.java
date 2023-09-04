@@ -6,10 +6,14 @@ public class lich {
     private String ngayThang;
     private String lichNgay;
 
-    public lich() {
+    public lich(String ngayThangNam, String ngayThang, String lichNgay) {
         this.ngayThangNam = ngayThangNam;
         this.ngayThang = ngayThang;
         this.lichNgay = lichNgay;
+    }
+
+    public lich() {
+
     }
 
     public int getId() {

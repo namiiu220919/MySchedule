@@ -1,5 +1,6 @@
 package com.example.myschedule.dao;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -23,6 +24,7 @@ public class lichDao {
             Cursor cursor = db.rawQuery("select * from lich", null);
             if (cursor.getCount() > 0) {
                 cursor.moveToFirst();
+            }
                 while (!cursor.isAfterLast()) {
                     lich lich = new lich();
                     lich.setId(cursor.getInt(0));
@@ -33,10 +35,18 @@ public class lichDao {
                     cursor.moveToNext();
                 }
 
-            }
         } catch (Exception e) {
             e.printStackTrace();
         }
         return list;
+    }
+    public boolean insert(lich lich){
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("ngayThangNam", lich.getNgayThangNam());
+        values.put("ngayThang",lich.getNgayThang());
+        values.put("lichNgay",lich.getLichNgay());
+        long row = db.insert("lich",null,values);
+        return (row>0);
     }
 }

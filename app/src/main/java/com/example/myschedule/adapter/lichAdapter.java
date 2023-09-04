@@ -5,6 +5,8 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -20,6 +22,7 @@ public class lichAdapter extends RecyclerView.Adapter<lichAdapter.viewHolder> {
     private final Context context;
     private final ArrayList<lich> list;
     lichDao lichDao;
+
 
     public lichAdapter(Context context, ArrayList<lich> list) {
         this.context = context;
@@ -54,6 +57,7 @@ public class lichAdapter extends RecyclerView.Adapter<lichAdapter.viewHolder> {
             txtNgayThangNam = itemView.findViewById(R.id.txtNgayThangNam);
             txtNgayThang = itemView.findViewById(R.id.txtngayThang);
             txtNDLichNgay = itemView.findViewById(R.id.txtNDLichNgay);
+
         }
     }
 }
