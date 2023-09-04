@@ -19,7 +19,7 @@ public class frmLichTuan extends Fragment {
     GridView gvNDLichTuan;
     lichTuanAdapter adapter;
     NDLichTuanAdapter adapter1;
-    String[] arrayLich = new String[]{"T2", "T3", "T4", "T5", "T6", "T7", "CN"};
+    String[] arrayLich = new String[]{"T2\n1", "T3\n2", "T4\n3", "T5\n4", "T6\n5", "T7\n6", "CN\n7"};
     String[] arrayNDlichTuan = new String[]{"den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...",
             "den 1...", "7:30", "", "", "", "", "", "", "9:00", "", "", "", "", "", "", "12:00", "", "", "", "", "",
             "", "15:00", "", "", "", "", "", "", "19:00", "", "", "", "", "", "", "22:00", "", "", "", "", "", ""};

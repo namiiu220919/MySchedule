@@ -16,6 +16,7 @@ import com.example.myschedule.fragment.fragmentmotivation;
 import com.example.myschedule.fragment.frgLichThang;
 import com.example.myschedule.fragment.frgPersent;
 import com.example.myschedule.fragment.frggroup3;
+import com.example.myschedule.fragment.frmLichNgay;
 import com.example.myschedule.fragment.frmLichTuan;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -67,6 +68,10 @@ public class feedback extends AppCompatActivity {
         nav.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                if (item.getItemId()== R.id.ngay){
+                    frmLichNgay lichNgay = new frmLichNgay();
+                    repalceFrg1(lichNgay);
+                }
                 if (item.getItemId()==R.id.tuan){
                     frmLichTuan lichTuan = new frmLichTuan();
                     repalceFrg1(lichTuan);

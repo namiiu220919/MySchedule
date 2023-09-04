@@ -20,11 +20,11 @@ public class frgLichThang extends Fragment {
     lichThangAdapter adapter;
     NDLichThangAdpater adpater1;
     String[] arrayLich = new String[]{"T2", "T3", "T4", "T5", "T6", "T7", "CN"};
-    String[] arrayNDlichTuan = new String[]{" 1      den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...",
-            "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...",
-            "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...",
-            "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...",
-            "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1...", "den 1..."};
+    String[] arrayNDlichTuan = new String[]{" 1\nden 1...", "2\nden 1...", "3\nden 1...", "4\nden 1...", "5\nden 1...", "6\nden 1...", "7\nden 1...",
+            "8\nden 1...", "9\nden 1...", "10\nden 1...", "11\nden 1...", "12\nden 1...", "13\nden 1...", "14\nden 1...",
+            "15\nden 1...", "16\nden 1...", "17\nden 1...", "18\nden 1...", "19\nden 1...", "20\nden 1...", "21\nden 1...",
+            "22\nden 1...", "23\nden 1...", "24\nden 1...", "25\nden 1...", "26\nden 1...","27\nden 1...", "28\nden 1...",
+            "29\nden 1...", "30\nden 1...", "1\nden 1...", "2\nden 1...", "3\nden 1...", "4\nden 1...", "5\nden 1..."};
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
