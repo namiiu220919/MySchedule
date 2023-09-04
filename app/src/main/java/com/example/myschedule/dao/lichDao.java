@@ -54,4 +54,13 @@ public class lichDao {
         long row = db.delete("lich","id=?",new String[]{String.valueOf(id)});
         return (row>0);
     }
+    public boolean update (lich lich){
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("ngayThangNam",lich.getNgayThangNam());
+        values.put("ngayThang",lich.getNgayThang());
+        values.put("lichNgay",lich.getLichNgay());
+        long row = db.update("lich",values,"id=?",new String[]{String.valueOf(lich.getId())});
+        return (row>0);
+    }
 }
