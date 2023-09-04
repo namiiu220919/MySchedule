@@ -73,14 +73,14 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Option 1" />
+                        android:text="Giao diện sáng" />
 
                     <RadioButton
                         android:id="@+id/radioButton2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Option 2" />
+                        android:text="Giao diện tối"/>
 
 
                 </RadioGroup>
@@ -88,11 +88,29 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="220dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"
+                android:orientation="vertical"
                 android:background="@drawable/bgpost">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/bgpost"
+                    android:text="Thông tin cá nhân"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bgpost"
+                    android:text="Sao lưu"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/bgpost"
+                    android:text="Đăng xuất"/>
 
             </LinearLayout>
 
