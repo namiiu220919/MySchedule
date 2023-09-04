@@ -46,9 +46,14 @@ public class frgPersent extends Fragment {
 //                Fragment fragment = new frm_thong_ke_tuan();
 //                FragmentManager fragmentManager = requireActivity().getSupportFragmentManager();
 //                FragmentTransaction transaction = fragmentManager.beginTransaction();
-//                transaction.replace(R.layout.fragment_frm_thong_ke_tuan,fragment);
+//                Fragment oldFragment = fragmentManager.findFragmentById(R.id.persent);
+//                if (oldFragment != null) {
+//                    transaction.hide(oldFragment);
+//                }
+//                transaction.add(R.id.thongketuan,fragment);
 //                transaction.addToBackStack(null);
 //                transaction.commit();
+//
 //            }
 //        });
         chk1.setOnClickListener(new View.OnClickListener() {

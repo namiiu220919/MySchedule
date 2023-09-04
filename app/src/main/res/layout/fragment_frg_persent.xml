@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ECECEC"
-    tools:context=".fragment.frgPersent">
+    tools:context=".fragment.frgPersent"
+    android:id="@+id/persent"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -121,7 +123,9 @@
                     <CheckBox
                         android:id="@+id/chk1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        />
 
                     <TextView
                         android:layout_width="wrap_content"
